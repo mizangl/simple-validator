@@ -10,6 +10,9 @@ repositories {
 }
 
 dependencies {
+    implementation ("org.jetbrains.kotlin:kotlin-reflect:1.8.0")
+
+    testImplementation("io.kotest:kotest-assertions-core:5.6.2")
     testImplementation(kotlin("test"))
 }
 
